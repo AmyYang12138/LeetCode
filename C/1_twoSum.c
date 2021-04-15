@@ -1,3 +1,4 @@
+//暴力法
 int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     int *num = malloc(sizeof(int)*2);
     for(int i=0;i<numsSize;i++) {
